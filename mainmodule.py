@@ -5,7 +5,7 @@ import train
 import face_rcgnz
 image_placeholder=streamlit.empty()
 camera=cv2.VideoCapture(0)
-streamlit.title('Welcome')
+streamlit.title('Welcome all')
 register_button=streamlit.button('Register')
 textbox=streamlit.text_input('please enter your name here:') 
 start_button=streamlit.button('START')
